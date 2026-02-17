@@ -2,7 +2,7 @@ onload = () => {
   document.body.classList.remove("container");
   
   // Crear y reproducir el audio automáticamente
-  const audio = new Audio("audio.mp3");
+ const audio = document.getElementById("musica");
   audio.loop = true;
   audio.volume = 1; // Volumen máximo
   
@@ -30,3 +30,4 @@ onload = () => {
   }
 
 };
+
